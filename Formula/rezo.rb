@@ -1,15 +1,15 @@
 class Rezo < Formula
   desc "Menu bar monitor for ZLT X31 5G boxes: signal, battery, traffic"
   homepage "https://github.com/aabichou/rezo"
-  url "https://github.com/aabichou/rezo/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "33040c9f62089662af5ae06d4ec42635720c3067cbacd8e61d5941151f3bbb0c"
+  url "https://github.com/aabichou/rezo/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "a2396421ba292dea71dbb3c1bd62c2fba87041b017c5aab6bd5d33b420147eda"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/aabichou/rezo/releases/download/v0.1.0"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "e9826671bb4ec6c42a2e057acc5e51a1fde81893e5ec868513fb729fc2a34e9b"
+    root_url "https://github.com/aabichou/rezo/releases/download/v0.2.0"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "7510e67d70c3690313e4aba2e5c23cdc740d955df2da2f4f00d137b54d6b06ea"
   end
+
 
   depends_on macos: :sonoma
 
